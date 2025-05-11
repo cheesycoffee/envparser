@@ -2,7 +2,7 @@
 
 A lightweight Go package for parsing environment variables into struct fields using tags, with support for nested/embedded structs and custom decoding.
 
-## Compability
+## Compatibility
 
 - **Go 1.12 or later**  
   This library is compatible with Go 1.12+ and does not rely on generics or Go modules features introduced after that version.
