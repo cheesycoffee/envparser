@@ -14,7 +14,7 @@ import (
 	"time"
 )
 
-func Parse(target any) error {
+func Parse(target interface{}) error {
 	val := reflect.ValueOf(target)
 	if val.Kind() != reflect.Ptr || val.Elem().Kind() != reflect.Struct {
 		return errors.New("target must be a pointer to a struct")
